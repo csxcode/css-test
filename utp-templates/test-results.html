@@ -1,0 +1,294 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>w3newbie HTML Email</title>
+	<style type="text/css">
+        @import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;700&display=swap');      
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@700&display=swap');                      
+
+		body {
+			Margin: 0;
+			padding: 0;
+			background-color: #f6f9fc;
+            font-family: 'Libre Franklin', sans-serif;
+		}
+
+		.wrapper{
+			margin: auto; 
+			text-align: center;
+			width: 100%;
+			table-layout: fixed;
+			background-color: #f6f9fc;
+			padding-bottom: 40px;
+		}
+
+		.webkit{
+			max-width: 600px;
+			background-color: #fff;
+			margin-left: auto;
+  		    margin-right: auto;
+		}
+
+		.outer {
+			margin: 0 auto;
+			width: 100%;
+			max-width: 600px;
+			border-spacing: 0;
+			font-family: sans-serif;
+			color: #4a4a4a;
+		}
+
+		table {
+			border-spacing: 0;
+		}
+
+		td {
+			padding: 0;
+		}
+
+		img {
+			border: 0;
+		}		
+
+		.mensaje_container
+		{
+			text-align: center;
+			width: 415px;
+			max-width: 415px;
+		}
+			
+        #titulo{
+            margin-top: 40px;          
+        }
+
+        #titulo #ponte_prueba_logo
+        {
+            width: 100%;
+            max-width: 280px;
+            vertical-align: text-bottom;
+            float: left;
+        }
+
+        #titulo #utp_logo
+        {
+            width: 100%;
+            max-width: 280px;            
+            float: right;
+            margin-top: 25px;
+            vertical-align: text-bottom;
+        }
+
+		.mensaje_container
+		{
+			text-align: center;
+			width: 415px;
+			max-width: 415px;
+		}
+
+        .btn_wa {						
+			background-color:#fff;
+			border-radius:4px;
+			border:1px solid #3FBC2C;            
+			display:inline;
+			cursor:pointer;
+			color:#ffffff;			
+			padding: 15px 15px 15px 25px;
+			text-decoration:none;			
+            font-family: "Libre Franklin";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 15px;         
+		}
+
+        .btn_thematic {            				
+			background: #FFFFFF;
+            border: 1px solid #C7C8CA;
+            box-sizing: border-box;
+            box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.1);
+            border-radius: 20px;
+            padding: 5px 10px;
+            margin: 10px 10px 15px 10px;       
+            /*width: fit-content;     */
+        }
+
+        .status_title {
+            font-weight: 700; 
+            color: #000; 
+            font-size: 15px;             
+            height: 40px;
+        }
+
+		@media screen and (max-width: 600px) { 
+            #titulo #ponte_prueba_logo
+            {
+                max-width: 200px;
+            }
+
+            #titulo #utp_logo
+            {
+                max-width: 200px;
+            }
+            
+        }
+        
+        @media screen and (max-width: 400px) { 
+            #titulo #ponte_prueba_logo
+            {
+                max-width: 150px;
+            }
+
+            #titulo #utp_logo
+            {
+                max-width: 150px;
+            }
+		}
+	</style>
+</head>
+<body>
+	<div class="wrapper">
+		<div class="webkit">			
+			<table class="outer">
+				<tr>
+					<td>
+						<table width="100%">
+                            <div class="header">
+                                <tr>
+                                    <td id="titulo">
+                                        <table id="ponte_prueba_logo">
+                                            <tr>
+                                            <td>
+                                                <a href="#">
+                                                    <img alt="logoUTP"
+                                                        src="https://raw.githubusercontent.com/csxcode/css-test/master/utp-templates/assets/logo-app.png">
+                                                </a>
+                                            </td>
+                                            </tr> 
+                                        </table>
+                                        <table id="utp_logo">
+                                            <tr>
+                                                <td>
+                                                    <a href="#">
+                                                        <img alt="logoUTP" 
+                                                            src="https://raw.githubusercontent.com/csxcode/css-test/master/utp-templates/assets/logo-utp.png">
+                                                    </a>
+                                                </td>
+                                            </tr> 
+                                        </table>
+                                    </td>
+                                </tr>
+                            </div>	
+                            
+                            <div class="body">
+                                <tr style="height: 50px;">					
+                                </tr>
+                                <tr style="margin-top: 40px;">
+                                    <td>
+                                        <h2 style="color: #000;font-family: 'Libre Franklin', sans-serif; font-weight: 700; font-size: 20px; line-height: 25px">
+                                            <b>¡Felicidades {{name}}!</b>
+                                        </h2>
+    
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="mensaje_container">
+                                        <table width="415px" style="max-width: 415px; margin: 0 auto">
+                                            <tr>
+                                                <td style="font-family: 'Libre Franklin', sans-serif; font-weight: 400; line-height:22px; font-size: 15px;">
+                                                    Resolviste todas las preguntas de “Ponte a Prueba UTP” y estos son tus resultados:
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div style="width: 95%; max-width: 95%; margin: 0 auto; background-color: #F5F5F5; margin-top: 20px; margin-bottom: 20px; padding-bottom: 20px;">                                        
+                                            <table style="text-align: center;">
+                                                <tr>
+                                                    <td colspan="10" style="padding-bottom: 30px; padding-top: 20px;">
+                                                        <label style="font-weight: 700; color: #000; font-size: 18px; line-height: 20px;">Resultados en {{area_name}}</label>                                                        
+                                                    </td>
+                                                </tr>
+                                                <tr style="vertical-align: top;">
+                                                    <td style="width: 32%;">
+                                                        <img src="https://raw.githubusercontent.com/csxcode/css-test/master/utp-templates/assets/excellent.png" style="margin-bottom: 20px; width: 114px; height: 97px;">
+                                                        <br>
+                                                        <div class="status_title">La rompes en:</div> 
+                                                        <div style="display: inline-block; text-align: center;">
+                                                            <div class="btn_thematic">
+                                                                <div style="font-family: Noto Serif; font-style: normal; font-weight: 700; font-size: 14px; line-height: 16px; color: #00B48C;">Operaciones con numeros reales</div>
+                                                            </div>                                                        
+                                                            <div class="btn_thematic">
+                                                                <div style="font-family: Noto Serif; font-style: normal; font-weight: 700; font-size: 14px; line-height: 16px; color: #00B48C;">Factorización</div>
+                                                            </div>
+                                                        </div>                                                                                                             
+                                                    </td>
+                                                    <td style="width: 31%;">
+                                                        <img src="https://raw.githubusercontent.com/csxcode/css-test/master/utp-templates/assets/good.png" style="margin-bottom: 20px; width: 105px; height: 97px">                                                        
+                                                        <br>
+                                                        <div class="status_title">Vas por buen camino en:</div>                                                                                                                
+                                                        <div style="display: inline-block; text-align: center;">
+                                                            <div class="btn_thematic">
+                                                                <div style="font-family: Noto Serif; font-style: normal; font-weight: 700; font-size: 14px; line-height: 16px; color: #00B48C;">Operaciones con numeros reales</div>
+                                                            </div>                                                        
+                                                            <div class="btn_thematic">
+                                                                <div style="font-family: Noto Serif; font-style: normal; font-weight: 700; font-size: 14px; line-height: 16px; color: #00B48C;">Factorización</div>
+                                                            </div>
+                                                        </div>  
+                                                    </td>
+                                                    <td style="width: 32%;">
+                                                        <img src="https://raw.githubusercontent.com/csxcode/css-test/master/utp-templates/assets/improve.png" style="margin-bottom: 20px; width: 105px; height: 97px">                                                        
+                                                        <br>
+                                                        <div class="status_title">Ánimo que puedes reforzar:</div>                                                             
+                                                        <div style="display: inline-block; text-align: center;">
+                                                            <div class="btn_thematic">
+                                                                <div style="font-family: Noto Serif; font-style: normal; font-weight: 700; font-size: 14px; line-height: 16px; color: #00B48C;">Operaciones con numeros reales</div>
+                                                            </div>                                                        
+                                                            <div class="btn_thematic">
+                                                                <div style="font-family: Noto Serif; font-style: normal; font-weight: 700; font-size: 14px; line-height: 16px; color: #00B48C;">Factorización</div>
+                                                            </div>
+                                                        </div>  
+                                                    </td>
+                                                </tr>
+                                            </table>                                            
+                                        </div>                                        
+                                    </td>                                   
+                                </tr>
+                                <tr style="height: 10px;">
+					
+                                </tr>
+                                <tr>
+                                    <td class="mensaje_container">
+                                        <table width="415px" style="max-width: 415px;margin: 0 auto">
+                                            <tr>
+                                                <td style="font-family: 'Libre Franklin', sans-serif; font-weight: 400; line-height:22px; font-size: 15px;">
+                                                    Contáctate con un asesor y conoce más de la UTP.
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="padding-top: 15px;">
+                                                    <div class="btn_wa">
+                                                        <img src="https://raw.githubusercontent.com/csxcode/css-test/master/utp-templates/assets/i-whatsapp.png" style="top: 9px;position: relative;">
+                                                        <label style="font-family: Libre Franklin; font-style: normal; font-weight: bold; font-size: 20px; line-height: 18px; color: #3FBC2C; padding-left: 5px; padding-right: 10px;">{{utp_advisor_cellphone}}</label>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>                                
+                                </tr>
+                                <tr style="height: 50px;">
+                                    
+                                </tr>
+                            </div>                            							
+						</table>
+					</td>					
+				</tr>				
+			</table>
+		</div>		
+	</div>
+</body>
+</html>
+
