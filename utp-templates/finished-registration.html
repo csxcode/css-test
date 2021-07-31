@@ -1,0 +1,193 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>w3newbie HTML Email</title>
+	<style type="text/css">
+		body {
+			Margin: 0;
+			padding: 0;
+			background-color: #f6f9fc;
+		}
+
+		.wrapper{
+			margin: auto; 
+			text-align: center;
+			width: 100%;
+			table-layout: fixed;
+			background-color: #f6f9fc;
+			padding-bottom: 40px;
+		}
+
+		.webkit{
+			max-width: 600px;
+			background-color: #f6f9fc;
+			margin-left: auto;
+  		margin-right: auto;
+		}
+
+		.outer {
+			margin: 0 auto;
+			width: 100%;
+			max-width: 600px;
+			border-spacing: 0;
+			font-family: sans-serif;
+			color: #4a4a4a;
+		}
+
+		table {
+			border-spacing: 0;
+		}
+
+		td {
+			padding: 0;
+		}
+
+		img {
+			border: 0;
+		}		
+
+		.mensaje_container
+		{
+			text-align: center;
+			width: 400px;
+			max-width: 400px;
+		}
+			
+        #titulo{
+        margin-top: 40px;  
+        
+        }
+
+        #titulo #ponte_prueba_logo
+        {
+            width: 100%;
+            max-width: 280px;
+            vertical-align: text-bottom;
+            float: left;
+        }
+
+        #titulo #utp_logo
+        {
+            width: 100%;
+            max-width: 280px;
+            float: right;
+            vertical-align: text-bottom;
+        }
+
+		.myButton {
+			box-shadow:inset 0px 1px 0px 0px #f29c93;
+			background:linear-gradient(to bottom, #fe1a00 5%, #ce0100 100%);
+			background-color:#fe1a00;
+			border-radius:6px;
+			border:1px solid #d83526;
+			display:inline-block;
+			cursor:pointer;
+			color:#ffffff;
+			font-family:Arial;
+			font-size:15px;
+			font-weight:bold;
+			padding:6px 24px;
+			text-decoration:none;
+			text-shadow:0px 1px 0px #b23e35;
+		}
+
+		.myButton:hover {
+			background:linear-gradient(to bottom, #ce0100 5%, #fe1a00 100%);
+			background-color:#ce0100;
+		}
+
+		.myButton:active {
+			position:relative;
+			top:1px;
+		}
+
+		@media screen and (max-width: 600px) { 
+            #titulo #ponte_prueba_logo
+            {
+                max-width: 200px;
+            }
+
+            #titulo #utp_logo
+            {
+                max-width: 200px;
+            }
+            
+        }
+        
+        @media screen and (max-width: 400px) { 
+            #titulo #ponte_prueba_logo
+            {
+                max-width: 150px;
+            }
+
+            #titulo #utp_logo
+            {
+                max-width: 150px;
+            }
+		}
+	</style>
+</head>
+<body>
+	<div class="wrapper">
+		<div class="webkit">			
+			<table class="outer">
+				<tr>
+					<td>
+						<table width="100%">
+							<tr>
+								<td id="titulo">
+                                    <table id="ponte_prueba_logo">
+                                        <tr>
+                                        <td>
+                                            <a href="#"><img width=150 style="max-width: 150px;" 
+                                            src="cid:ponte_prueba.png" alt="logoUTP"></a>
+                                        </td>
+                                        </tr> 
+                                    </table>
+                                    <table id="utp_logo">
+                                        <tr>
+                                            <td>
+                                            <a href="#"><img width=150 style="max-width: 150px;" 
+                                            src="cid:utp.png" alt="logoUTP"></a>
+                                            </td>
+                                        </tr> 
+                                    </table>
+								</td>
+							</tr>
+							<tr style="height: 12%;">
+					
+							</tr>
+							<tr style="margin-top: 40px;">
+								<td>
+									<h2><b>Hola {{name}}</b></h2>
+
+								</td>
+							</tr>
+							<tr>
+								<td class="mensaje_container">
+									<table width="400px" style="max-width: 400px;margin: 0 auto">
+										<tr>
+											<td>
+												Para terminar tu registro, entra al siguiente enlace para validar tus datos
+											</td>
+										</tr>
+									</table>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<a href="#" class="myButton">Completa el registro →</a>
+								</td>
+							</tr>
+						</table>
+					</td>					
+				</tr>				
+			</table>
+		</div>		
+	</div>
+</body>
+</html>
+
